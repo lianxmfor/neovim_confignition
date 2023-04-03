@@ -9,9 +9,6 @@ vim.keymap.set("n", "<leader>wh", "<C-w>s")
 vim.keymap.set("n", "<leader>q", ":q<cr>")
 vim.keymap.set("n", "<leader>wq", ":wq<cr>")
 
--- quick save
-vim.keymap.set("n", "<leader>w", ":w<cr>")
-
 vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
 vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv")
 
