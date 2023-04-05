@@ -23,6 +23,8 @@ return require('packer').startup(function(use)
   use('thePrimeagen/harpoon')
   use('tpope/vim-fugitive')
 
+  use('rstacruz/vim-closer')
+
   use {
 	  'VonHeikemen/lsp-zero.nvim',
 	  branch = 'v2.x',
@@ -48,6 +50,7 @@ return require('packer').startup(function(use)
 	  -- Snippets
 	  {'L3MON4D3/LuaSnip'},     -- Required
 	  {'rafamadriz/friendly-snippets'},
+
   }
 }
 end)
